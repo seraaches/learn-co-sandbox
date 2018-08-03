@@ -1,0 +1,18 @@
+<html>
+<head>
+#list > li {
+  border: 1px solid black;
+}
+</head>
+<body>
+<ul id="list">
+  <li>child</li>
+  <li>child
+    <ul>
+      <li>grand child</li>
+    </ul>
+  </li>
+</ul>
+
+</body>
+</html>
